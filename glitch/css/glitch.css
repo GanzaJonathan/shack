@@ -1,0 +1,391 @@
+/******************************************** 
+               Heading_content
+**********************************************/
+
+li {
+  float: left;
+}
+
+li a:hover {
+  background-color: #333;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 4px;
+  overflow: hidden;
+  background-color: white;
+  letter-spacing: 5px;
+  margin-bottom: 0px;
+}
+
+#achieve {
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 4.5px;
+}
+
+#glitch-menu {
+  font-family: lato, sans-serif;
+  color: rgb(26, 243, 243);
+  font-size: 17.5px;
+  margin-right: 0px;
+  margin-left: 423px;
+  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  z-index: 1;
+}
+
+.nav navbar-nav {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin-left: -638px;
+  padding-left: 849.5px;
+}
+
+#logo {
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 11vmin;
+  color: #00ffb8;
+  background: transparent;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -107px;
+  border-style: none;
+  margin-left: 200px;
+  opacity: 95%;
+  line-height: 1.3;
+}
+
+.pg_parallax {
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home-cover {
+  height: 100vh;
+  background: linear-gradient(
+    45deg,
+    rgba(153, 0, 255, 0.884),
+    rgba(255, 166, 0, 0.76),
+    #da61bcd7,
+    turquoise
+  );
+  background-repeat: no-repeat;
+  background-size: 400%, 400%, 400%;
+  background-position: center;
+  background-attachment: fixed;
+  animation: change 20s ease-in-out alternate infinite;
+  z-index: 0.7;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+/*#home-content-box {
+  background: url(../img/ballons.svg);
+  animation: movemnet;
+}
+
+@keyframes movement {
+  0% {
+    background-position: 0%;
+  }
+
+  50% {
+    background-position: 50%;
+  }
+
+  100% {
+    background-position: 100%;
+  }
+}*/
+
+#home-content-box {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+#home-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#home-heading h3 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  margin: 20px 0px 20px 0px;
+}
+
+.heading-content {
+  color: white;
+  line-height: 24px;
+  margin-bottom: 25px;
+  letter-spacing: 0.2;
+  font-size: 19px;
+}
+
+.custom-shape-divider-top-1641547084 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1641547084 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1641547084 .shape-fill {
+  fill: #ffffff;
+}
+
+/*************************************
+             Body_content
+**************************************/
+body {
+  font-family: lato, sans-serif;
+  color: #555;
+  font-size: 19px;
+  background: rgb(255, 254, 254);
+}
+
+.rain {
+  margin: 0;
+  padding: 0;
+}
+
+#content1 {
+  overflow: hidden;
+  height: 500px;
+}
+
+#matrix {
+  float: left;
+  height: 500px;
+  width: 674.5px;
+}
+
+#best {
+  padding-bottom: 365px;
+  padding-top: 98px;
+  background-color: #8500ff;
+  text-align: start;
+  padding-top: -100px;
+  color: white;
+}
+
+#moto {
+  margin-top: -10px;
+}
+
+.stanza1 {
+  text-align: start;
+  padding-right: 705px;
+  padding-bottom: 365px;
+  line-height: 1.3;
+  background-color: #28ffe1;
+  color: white;
+}
+
+.stanza2 {
+  margin-left: 625px;
+  margin-top: -499px;
+  padding-bottom: 365px;
+  line-height: 1.3;
+  background-color: #e1d9d1;
+  color: ghostwhite;
+}
+
+#year_img {
+  margin-bottom: -250;
+  float: left;
+  height: 100%;
+  background-color: antiquewhite;
+  width: 50%;
+}
+
+#years_statement {
+  padding-top: -100px;
+  float: right;
+  height: 100%;
+  width: 50%;
+}
+
+.statement_p {
+  height: 100%;
+  background: deepskyblue;
+  color: white;
+}
+
+#next_year {
+  overflow: hidden;
+  height: 100%;
+}
+
+#numbers {
+  height: 100%;
+  background-color: #2a2c2ca6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.figures {
+  color: whitesmoke;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.goal_background {
+  background: linear-gradient(
+    to right,
+    rgb(107, 60, 194) 0%,
+    turquoise 50%,
+    rgb(14, 112, 107) 10%
+  );
+  height: 500px;
+}
+
+.goal_text {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+
+.right_text_contents {
+  color: #fff;
+  font-size: 30px;
+}
+
+.left_text_contents {
+  text-align: right;
+  color: #fff;
+  font-size: 30px;
+}
+
+/******************************************** 
+               Buttons
+**********************************************/
+
+.btn-general {
+  border-width: 2px;
+  border-radius: 0px;
+  padding: 17px 26px 17px 26px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn-white {
+  color: #000;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: white;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+  color: black;
+  border-color: black;
+  border-radius: 0%;
+  border-width: 2px;
+  text-decoration-thickness: 2px;
+  background-color: rgb(255, 255, 255);
+}
+
+.nav navbar-nav :hover,
+:focus {
+  color: white;
+}
+
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+.cooler1 {
+  background-color: #264653;
+  color: blanchedalmond;
+}
+
+.cooler2 {
+  background-color: #2a9d8f;
+  color: blanchedalmond;
+}
+
+.cooler3 {
+  background-color: #e9c46a;
+  color: blanchedalmond;
+}
+
+.cooler4 {
+  background-color: #f4a261;
+  color: blanchedalmond;
+}
+
+.cooler5 {
+  background-color: #e76f51;
+  color: blanchedalmond;
+}
+
+.banner {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #111;
+  letter-spacing: 1.5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  color: white;
+}
+
+.banner2 {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #000;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+}
